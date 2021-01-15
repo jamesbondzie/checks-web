@@ -18680,6 +18680,7 @@ Mi:function(a,b){if(!$.a1z){$.a1z=!0
 window
 if(typeof console!="undefined")window.console.warn("The performance overlay isn't supported on the web")}},
 Mj:function(a,b,c,d){var s,r
+c
 t.l9.a(b)
 s=b.a.b
 r=new H.dO(null)
@@ -29062,7 +29063,7 @@ K.Lh.prototype={
 $1:function(a){if(a!=null)this.a.c.B(0,new R.hk(a.a,a.b))},
 $S:106}
 F.wW.prototype={
-L:function(a,b){var s=null,r=X.a1C(s,C.m9,X.a1L()),q=R.a7a("ws://echo.websocket.org")
+L:function(a,b){var s=null,r=X.a1C(s,C.m9,X.a1L()),q=R.a7a("wss://echo.websocket.org")
 return new Q.qo(new Y.ks(new F.LU(),s,s,Q.abG(s,s,t.in),t.tT),s,s,new S.p0(new F.pc("checks",q,s),"checks",r,s),s,t.F4)}}
 F.LU.prototype={
 $1:function(a){var s=K.a7s().c
@@ -50128,4 +50129,3 @@ function onLoad(b){for(var q=0;q<s.length;++q)s[q].removeEventListener("load",on
 a(b.target)}for(var r=0;r<s.length;++r)s[r].addEventListener("load",onLoad,false)})(function(a){v.currentScript=a
 if(typeof dartMainRunner==="function")dartMainRunner(F.FM,[])
 else F.FM([])})})()
-//# sourceMappingURL=main.dart.js.map
